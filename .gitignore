@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/campanita/client/node_modules
+/campanita/server/node_modules
+/campanita/client/public
+/campanita/server/public
+/campanita/client/.pnp
+/campanita/server/.pnp
+/campanita/client/.pnp.js
+/campanita/server/.pnp.js
+
+# testing
+/campanita/client/coverage
+/campanita/server/coverage
+
+# production
+/campanita/client/build
+/campanita/server/build
+
+# misc
+/campanita/client/.DS_Store
+/campanita/server/.DS_Store
+/campanita/client/.env.local
+/campanita/server/.env.local
+/campanita/client/.env.development.local
+/campanita/server/.env.development.local
+/campanita/client/.env.test.local
+/campanita/server/.env.test.local
+/campanita/client/.env.production.local
+/campanita/server/.env.production.local
+
+/campanita/client/npm-debug.log*
+/campanita/server/npm-debug.log*
+/campanita/client/yarn-debug.log*
+/campanita/server/yarn-debug.log*
+/campanita/client/yarn-error.log*
+/campanita/server/yarn-error.log*
